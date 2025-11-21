@@ -10,13 +10,12 @@ To write a Python program to convert the number **16** into its **binary represe
 
 ## 🧾 Program
 ```
-a=int(input())
-if(a%2==0):
-    print("EVEN")
-else:
-    print("ODD")
+x=16
+y=bin(x)
+print(y)
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/e5040a25-ef1a-45d9-9084-08589fabb85d)
+![image](https://github.com/user-attachments/assets/aafea78b-e980-4d72-a40a-e1fcfbef00b6)
+
 ## Result
- Thus,the Python program to check whether the given number is **even** or **odd** using `if...else` statements is created successfully. 
+Thus,the Python program to convert the number 16 into its binary representation using built-in Python functions is created successfully.
